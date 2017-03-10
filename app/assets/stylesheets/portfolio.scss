@@ -1,0 +1,377 @@
+/*################ nav bar ##################*/
+.navbar-brand{
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-center {
+    text-align: center;
+}
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+//   border-color: transparent;
+}
+// .btn{
+//   margin-left: 800;
+// }
+/*###########################################*/
+// ######################################
+// body { background-image: url("https://static.pexels.com/photos/296884/pexels-photo-296884.jpeg")}
+//
+/*body {
+  color: black;
+  font-size: 100px;
+}*/
+
+body{
+  padding: 60px 150px;
+  background-color: #250F34;
+  color: white;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+#picture {
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom: 60px;
+    height: 500px;
+    width: 500px;
+}
+// ######################################
+/*################ Upper ####################*/
+// #### about_me ####
+.about_me{
+    position: relative;
+}
+
+.text1 {
+    position: absolute;
+    top: 220px;
+    right: 85px;
+    width: 50%;
+    color: #000099;
+    background-color:transparent;
+    padding: 15px;
+    font-size: 10px;
+    line-height: 130%;
+    font-family: 'Dancing Script', cursive;
+}
+// #### skills_portfolio ####
+.skills{
+    position: relative;
+}
+
+.text2 {
+    position: absolute;
+    top: 150px;
+    left: 45px;
+    width: 50%;
+    color: white;
+    background-color:transparent;
+    padding: 18px;
+    font-size: 100px;
+    line-height: 130%;
+    font-family: fantasy;
+    // transform: rotate(-30deg);
+    font-family: 'Dancing Script', cursive;
+}
+/*###########################################*/
+/*################ Lower ####################*/
+// #### experience ####
+.experience{
+    position: relative;
+}
+
+.text3 {
+    position: absolute;
+    top: 300px;
+    right: 100px;
+    width: 50%;
+    color: black;
+    background-color:transparent;
+    padding: 15px;
+    font-size: 10px;
+    line-height: 130%;
+    font-family: fantasy;
+     transform: rotate( -26deg);
+}
+// #### contact in about_me ####
+.contact{
+    position: relative;
+}
+
+.text4 {
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    width: 50%;
+    color: black;
+    background-color:transparent;
+    padding: 15px;
+    font-size: 10px;
+    line-height: 130%;
+    font-family: fantasy;
+}
+/*###########################################*/
+/*############### about me page  ###############*/
+.about_me_page{
+  text-align: center;
+    }
+
+.about_me_text1{
+  font-size: 30px;
+  position: relative;
+  top: -385px;
+  left: -70px;
+  font-family: 'Dancing Script', cursive;
+  transform: rotate( -10deg);
+}
+.about_me_text2{
+  font-size: 30px;
+  position: relative;
+  top: -375px;
+  left: -70px;
+  font-family: 'Dancing Script', cursive;
+  transform: rotate( -10deg);
+}
+.about_me_text3{
+  font-size: 30px;
+  position: relative;
+  top: -365px;
+  left: -70px;
+  font-family: 'Dancing Script', cursive;
+  text-decoration: line-through;
+  transform: rotate( -10deg);
+
+}
+.about_me_text4{
+  font-size: 30px;
+  position: relative;
+  top: -390px;
+  left: -70px;
+  font-family: 'Dancing Script', cursive;
+  transform: rotate( -10deg);
+
+}
+.about_me_text5{
+  font-size: 30px;
+  position: relative;
+  top: -555px;
+  left: 65px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.profile_img{
+  height: 200px;
+  width: 160px;
+}
+
+.jp_flag{
+  height: 40px;
+  width: 60px;
+  border: 1px solid #e6e6e6;
+	background: #fff;
+  -webkit-filter: grayscale(70%);
+  filter: grayscale(70%);
+}
+
+/*##############################################*/
+/*############### skills_portfolio page ###############*/
+.Name{
+  text-align: center;
+}
+// #############################
+// ###### box_ruby ######
+.box1{width: 300px;
+     height: 300px;
+     line-height: 300px;
+     text-align: center;
+     position: relative;
+     left: 50px;
+    //  color: white;
+    }
+.bd1 bd11{ color: red;}
+//## box_animation ######
+.bd11 div{background: #000; position:absolute;-webkit-transition:all 0.3s;transition:all 0.3s;}
+.bd11 div.bdT{width: 100%; height:2px; top:0; left:0; color: blue}
+.bd11 div.bdB{width: 100%; height:2px; bottom:0; right:0; color: blue}
+.bd11 div.bdR{height:100%; width :2px; right:0; top:0; color: blue}
+.bd11 div.bdL{height:100%; width :2px; left:0; bottom:0; color: blue}
+//# mouse hover as Key
+.box1:hover .bd1 div.bdT{width: 0;}
+.box1:hover .bd1 div.bdB{width: 0;}
+.box1:hover .bd1 div.bdR{height:0;}
+.box1:hover .bd1 div.bdL{height:0;}
+// #############################
+// ##### box_html #######
+.box2{width: 300px;
+     height: 300px;
+     line-height: 300px;
+     text-align: center;
+     position: relative;
+     left: 800px;
+    //  color: white;
+    }
+
+//## box_animation ######
+.bd22 div{background: #000; position:absolute;-webkit-transition:all 0.3s;transition:all 0.3s;}
+.bd22 div.bdT{width: 100%; height:2px; top:0; left:0;}
+.bd22 div.bdB{width: 100%; height:2px; bottom:0; right:0;}
+.bd22 div.bdR{height:100%; width :2px; right:0; top:0;}
+.bd22 div.bdL{height:100%; width :2px; left:0; bottom:0;}
+.box2:hover .bd1 div.bdT{width: 0;}
+.box2:hover .bd1 div.bdB{width: 0;}
+.box2:hover .bd1 div.bdR{height:0;}
+.box2:hover .bd1 div.bdL{height:0;}
+// #############################
+// ###### box_css ########
+.box3{width: 300px;
+     height: 300px;
+     line-height: 300px;
+     text-align: center;
+     position: relative;
+    //  color: white;
+     }
+//## box_animation ######
+.bd33 div{background: #000; position:absolute;-webkit-transition:all 0.3s;transition:all 0.3s;}
+.bd33 div.bdT{width: 100%; height:2px; top:0; left:0;}
+.bd33 div.bdB{width: 100%; height:2px; bottom:0; right:0;}
+.bd33 div.bdR{height:100%; width :2px; right:0; top:0;}
+.bd33 div.bdL{height:100%; width :2px; left:0; bottom:0;}
+.box3:hover .bd1 div.bdT{width: 0;}
+.box3:hover .bd1 div.bdB{width: 0;}
+.box3:hover .bd1 div.bdR{height:0;}
+.box3:hover .bd1 div.bdL{height:0;}
+// #############################
+// #############################
+// # box_ruby_on_rails ##
+.box4{width: 300px;
+     height: 300px;
+     line-height: 300px;
+     text-align: center;
+     position: relative;
+     left: 680px;
+    //  color: white;
+  }
+.bd44 div{background: #000; position:absolute;-webkit-transition:all 0.3s;transition:all 0.3s;}
+.bd44 div.bdT{width: 100%; height:2px; top:0; left:0;}
+.bd44 div.bdB{width: 100%; height:2px; bottom:0; right:0;}
+.bd44 div.bdR{height:100%; width :2px; right:0; top:0;}
+.bd44 div.bdL{height:100%; width :2px; left:0; bottom:0;}
+.box4:hover .bd1 div.bdT{width: 0;}
+.box4:hover .bd1 div.bdB{width: 0;}
+.box4:hover .bd1 div.bdR{height:0;}
+.box4:hover .bd1 div.bdL{height:0;}
+// #############################
+// #### box_others ######
+.box5{width: 300px;
+     height: 300px;
+     line-height: 300px;
+     text-align: left;
+     text-align: center;
+     position: relative;
+     left: 180px;
+    //  color: white;
+    }
+.bd55 div{background: #000; position:absolute;-webkit-transition:all 0.3s;transition:all 0.3s;}
+.bd55 div.bdT{width: 100%; height:2px; top:0; left:0;}
+.bd55 div.bdB{width: 100%; height:2px; bottom:0; right:0;}
+.bd55 div.bdR{height:100%; width :2px; right:0; top:0;}
+.bd55 div.bdL{height:100%; width :2px; left:0; bottom:0;}
+.box5:hover .bd1 div.bdT{width: 0;}
+.box5:hover .bd1 div.bdB{width: 0;}
+.box5:hover .bd1 div.bdR{height:0;}
+.box5:hover .bd1 div.bdL{height:0;}
+// #############################
+/*###########################################*/
+/*############### Experience ################*/
+.text-swdeveloper{
+  text-align: center;
+}
+.swdeveloper{
+  max-width: 100%;
+  text-align: center;
+}
+#cfa-logo_img{
+  height: 400px;
+  width: 400px;
+  text-align: center;
+}
+
+// ### petrochemicals trading company ###
+.petrochemicals{
+  text-align: center;;
+}
+// # sales
+// #salesbackground{
+//   margin: 0 auto;
+//   height: 400px;
+//   width: 400px;
+// }
+.sales{
+  margin:  auto;
+  height: 400px;
+  width: 400px;
+  text-align: center;
+}
+#shakehands_img{
+  margin: 0 auto;
+  height: 400px;
+  width: 400px;
+  // text-align: center;
+}
+
+//# marketer
+.marketer{
+  margin: 0 auto;
+  width: 100% ;
+  width: 400px;
+  text-align: center;
+}
+#marketer_img{
+  margin: 0 auto;
+  height: 400px;
+  width: 400px;
+  // text-align: center;
+}
+
+// //# logistics
+.logistics{
+  margin: 0 auto;
+  height: 400px;
+  width: 400px;
+  text-align: center;
+}
+#logistics_img{
+  margin: 0 auto;
+  height: 400px;
+  width: 400px;
+  // text-align: center;
+}
+//# university
+// .text-swdeveloper{
+//   text-align: center;
+// }
+// .swdeveloper{
+//   max-width: 100%;
+//   text-align: center;
+// }
+// #cfa-logo_img{
+//   height: 400px;
+//   width: 400px;
+//   text-align: center;
+// }
+
+
+/*###########################################*/
