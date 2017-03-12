@@ -1,14 +1,4 @@
-<!-- ### link to home others ### -->
-
-<!-- <a href="/portfolio/">Return home</a>
-<%= link_to 'Return home', '/portfolio/index' %> -->
-
-<!-- <%=link_to 'about_me', pages_about_me_url %>
-<%=link_to 'about_me', pages_about_me_path %> -->
-
-<!-- <a href="/home">Return home</a> -->
-<!-- # <%= link_to 'home', root_path %> -->
-
+<div class="aboutmecontact white-text">
 
  <div class="about_me_page">
    <img src="https://images.pexels.com/photos/34020/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" width="1000" height="700" usemap="#Map" alt="about_me_img">
@@ -20,15 +10,15 @@
      <a href="#about_me_hashtag2" data-scroll><h3>Living place</h3></a>
    </div>
    <div class="about_me_text3">
-     <h3>Hobby</h3>
+     <h3>Interest</h3>
    </div>
    <div class="about_me_text4">
-     <a href="#about_me_hashtag4" data-scroll><h3>Interest</h3></a>
+     <a href="#about_me_hashtag4" data-scroll><h3>Personality</h3></a>
    </div>
    <div class="about_me_text5">
      <a href="#about_me_hashtag5" ><h3>Contact</h3></a>
-
    </div>
+
  </div>
 
 <!-- ############################################################# -->
@@ -38,44 +28,95 @@
 <br>
 <br>
 <br>
-
 <!-- ############## Takahiro Suzuki part ################# -->
-<h2 id="about_me_hashtag1">Takahiro Suzuki <%= image_tag 'jp-flag.png', class:"jp_flag" %></h2>
-
-<!-- <div class="col-md-6">
-  <div class="taka_photo"> -->
-    <%= image_tag 'profileimg.png', class:"profile_img" %>
-  <!-- </div>
-</div> -->
- <!-- <div class="col-md-6">
-    <div class="taka_description"> -->
-    test descriptiosn
-    <!-- </div>
- </div> -->
-
+ <div class="container-takahirosuzuki">
+    <div class="row-takahiro">
+      <h2>Takahiro Suzuki <%= image_tag 'jp-flag.png', class:"jp_flag" %></h2>
+          <div class="takahirosuzuki col-md-4">
+          <%= image_tag 'profileimg.png', class:"profile_img" %>
+          </div>
+        <div class="suzuki col-md-8">
+            <div class="row-suzuki">
+                <div class="suzuki1 col-xs-6">
+                 <h3>①As a sales representitive, Takahiro Suzuki has 3.5 year working experience in a petrochemicals trading company.</h3>
+                </div>
+                <div class="suzuki2 col-xs-6">
+                 <h3>②Shifted the career as a software developer, during the period in Coderfactory Academy tasks and the project has been completed.</h3>
+                </div>
+                <div class="suzuki3 col-xs-6">
+                 <h3>③Applying skills such as Ruby, Ruby on rails, HTML, CSS and Javascript.</h3>
+                </div>
+                <div class="suzuki4 col-xs-6">
+                 <h3>④Besides, having a background of Social science in university , experienced diversity of culture.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
 <!-- ###################################################### -->
- <br>
- <br>
- <br>
- <br>
- <br>
- <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <!-- ############## Living place part ################# -->
-<h2 id="about_me_hashtag2">Living place<h2>
-test description 2
-
+  <div class="container-livingplace">
+    <div class="row-living_place">
+          <h2>Living place<h2>
+    <br>
+          <div class="row-livingplace">
+            <div class="col-md-4">
+              <h3>January, 2017 -   Sydney, Australia.</h3>
+            </div>
+            <div class="col-md-4">
+              <h3>April, 2013 - December, 2016  Osaka, Japan</h3>
+            </div>
+            <div class="col-md-4">
+              <h3>December, 1989 - March, 2013  Tokyo, Japan</h3>
+            </div>
+         </div>
+    </div>
+   </div>
 <!-- ################################################## -->
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-   <br>
-<!-- ############## Interest part ################# -->
-<h2 id="about_me_hashtag4">Interest<h2>
-  test description 4
-  personality
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- ############## personality part ################# -->
+<div class="personality">
+<h2>Personality</h2>
+  <h3>
+  With passion and patience, created several project as a projexct leader in a petrochemicals trading company,
+  <br>
+   such as the project exporting hundreds tons of amino acids to overseas country.
+  <br>
+  <br>
+  Having spirits to challenge organized several tennis tournaments which participants were more than 1,000,
+  <br>
+   as a manager of tennis event organization in university.
+  <br>
+  <br>
+  More than 10 years of playing tennis as a hobby.
+  <br>
+  <br>
+  Having curiousity, traveled South east Asia as a backpacker.
+  </h3>
+</div>
 <!-- ############################################## -->
 <br>
 <br>
@@ -84,7 +125,8 @@ test description 2
 <br>
 <br>
 <!-- ############## Test part ################# -->
-<h2 id="about_me_hashtag5">Contact<h2>
+<div class="about_me_contact">
+<h2>Contact<h2>
   test description 5
 
 
@@ -93,13 +135,10 @@ test description 2
 <!--
 <a href="#about_me_text2" data-scroll></a>
 <h2 id="about_me_text2">Living place</h2>
-
 <a href="#about_me_text3" data-scroll></a>
 <h2 id="about_me_text3">Hobby</h2>
-
 <a href="#about_me_text4" data-scroll></a>
 <h2 id="about_me_text4">Interest</h2>
-
 <a href="#about_me_text5" data-scroll></a>
 <h2 id="about_me_text5">Test</h2> -->
 
@@ -109,3 +148,4 @@ test description 2
   smoothScroll.init() ;
 </script>
 <!-- ################################ -->
+</div>

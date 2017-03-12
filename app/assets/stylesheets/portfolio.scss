@@ -23,16 +23,18 @@
 // }
 /*###########################################*/
 // ######################################
-// body { background-image: url("https://static.pexels.com/photos/296884/pexels-photo-296884.jpeg")}
-//
-/*body {
-  color: black;
-  font-size: 100px;
-}*/
+ body { background-image: url("https://static.pexels.com/photos/296884/pexels-photo-296884.jpeg")}
+
+// body {
+//   background-color: #441306;
+// }
 
 body{
   padding: 60px 150px;
   background-color: #250F34;
+  color: white;
+}
+.white-text{
   color: white;
 }
 
@@ -125,6 +127,11 @@ body{
 }
 /*###########################################*/
 /*############### about me page  ###############*/
+.aboutmecontact{
+background-color: #F6F4F8;
+background: rgba(0,0,0,0.5);
+}
+
 .about_me_page{
   text-align: center;
     }
@@ -153,7 +160,10 @@ body{
   font-family: 'Dancing Script', cursive;
   text-decoration: line-through;
   transform: rotate( -10deg);
-
+  color: #0e7ba5;
+}
+.about_me_text3 h3{
+  color: #0e7ba5;
 }
 .about_me_text4{
   font-size: 30px;
@@ -162,16 +172,19 @@ body{
   left: -70px;
   font-family: 'Dancing Script', cursive;
   transform: rotate( -10deg);
-
 }
+
 .about_me_text5{
   font-size: 30px;
   position: relative;
   top: -555px;
-  left: 65px;
+  left: 70px;
   font-family: 'Dancing Script', cursive;
 }
 
+.row-takahiro{
+  margin-left: 150px;
+}
 .profile_img{
   height: 200px;
   width: 160px;
@@ -186,69 +199,129 @@ body{
   filter: grayscale(70%);
 }
 
+.suzuki1{
+  width: 100%;
+  height: 100%;
+  // border-bottom: 5px solid #681506;
+}
+.suzuki2{
+  width: 100%;
+  height: 100%;
+}
+.suzuki3{
+  width: 100%;
+  height: 100%;
+
+}
+.suzuki4{
+  width: 100%;
+  height: 100%;
+
+}
+
+.container-livingplace{
+    border-top: 5px solid #681506;
+}
+
+.personality{
+    border-top: 5px solid #681506;
+}
+.about_me_contact{
+    border-top: 5px solid #681506;
+}
+
 /*##############################################*/
 /*############### skills_portfolio page ###############*/
 .Name{
   text-align: center;
+  background-color: white;
+  background: rgba(255,255,255,0.2);
+  color: black;
 }
 // #############################
 // ###### box_ruby ######
-.box1{width: 300px;
-     height: 300px;
-     line-height: 300px;
-     text-align: center;
-     position: relative;
-     left: 50px;
-    //  color: white;
+.box1{width: 30%;
+      height: 500px;
+      line-height: 300px;
+      text-align: center;
+      position: relative;
+      left: 50px;
+      color: black;
+      background: linear-gradient(-90deg, #fff7b2, white);
+      border-radius: 50px;
+      font-size: 40px;
+      font-family: fantasy;
     }
-.bd1 bd11{ color: red;}
+
+
+.ruby_atm{
+  position:relative;
+  top: 90px;
+}
+
 //## box_animation ######
 .bd11 div{background: #000; position:absolute;-webkit-transition:all 0.3s;transition:all 0.3s;}
-.bd11 div.bdT{width: 100%; height:2px; top:0; left:0; color: blue}
-.bd11 div.bdB{width: 100%; height:2px; bottom:0; right:0; color: blue}
-.bd11 div.bdR{height:100%; width :2px; right:0; top:0; color: blue}
-.bd11 div.bdL{height:100%; width :2px; left:0; bottom:0; color: blue}
+.bd11 div.bdT{width: 100%; height:5px; top:0; left:0; }
+.bd11 div.bdB{width: 100%; height:5px; bottom:0; right:0; }
+.bd11 div.bdR{height:100%; width :5px; right:0; top:0; }
+.bd11 div.bdL{height:100%; width :5px; left:0; bottom:0; }
 //# mouse hover as Key
 .box1:hover .bd1 div.bdT{width: 0;}
 .box1:hover .bd1 div.bdB{width: 0;}
 .box1:hover .bd1 div.bdR{height:0;}
 .box1:hover .bd1 div.bdL{height:0;}
 // #############################
-// ##### box_html #######
-.box2{width: 300px;
-     height: 300px;
-     line-height: 300px;
-     text-align: center;
-     position: relative;
-     left: 800px;
-    //  color: white;
+// ##### box_ruby2 #######
+.box2{width: 30%;
+      height: 500px;
+      line-height: 300px;
+      text-align: center;
+      position: relative;
+      left: 1000px;
+      color: black;
+      background: linear-gradient(-180deg, #89efff, white);
+      border-radius: 50px;
+      font-size: 40px;
     }
+.ruby_weather{
+              position:relative;
+              top: 90px;
+              }
 
 //## box_animation ######
 .bd22 div{background: #000; position:absolute;-webkit-transition:all 0.3s;transition:all 0.3s;}
-.bd22 div.bdT{width: 100%; height:2px; top:0; left:0;}
-.bd22 div.bdB{width: 100%; height:2px; bottom:0; right:0;}
-.bd22 div.bdR{height:100%; width :2px; right:0; top:0;}
-.bd22 div.bdL{height:100%; width :2px; left:0; bottom:0;}
+.bd22 div.bdT{width: 100%; height:5px; top:0; left:0;}
+.bd22 div.bdB{width: 100%; height:5px; bottom:0; right:0;}
+.bd22 div.bdR{height:100%; width :5px; right:0; top:0;}
+.bd22 div.bdL{height:100%; width :5px; left:0; bottom:0;}
 .box2:hover .bd1 div.bdT{width: 0;}
 .box2:hover .bd1 div.bdB{width: 0;}
 .box2:hover .bd1 div.bdR{height:0;}
 .box2:hover .bd1 div.bdL{height:0;}
 // #############################
-// ###### box_css ########
-.box3{width: 300px;
-     height: 300px;
-     line-height: 300px;
-     text-align: center;
-     position: relative;
-    //  color: white;
-     }
+// ###### box_htmlcss ########
+.box3{width: 60%;
+      height: 500px;
+      line-height: 300px;
+      text-align: center;
+      position: relative;
+      left: 180px;
+      color: black;
+      background: linear-gradient(-90deg, green, white);
+      border-radius: 50px;
+      font-size: 40px;
+      }
+.htmlcss_coming_soon{
+                     position:relative;
+                     top: 100px;
+              }
+
 //## box_animation ######
 .bd33 div{background: #000; position:absolute;-webkit-transition:all 0.3s;transition:all 0.3s;}
-.bd33 div.bdT{width: 100%; height:2px; top:0; left:0;}
-.bd33 div.bdB{width: 100%; height:2px; bottom:0; right:0;}
-.bd33 div.bdR{height:100%; width :2px; right:0; top:0;}
-.bd33 div.bdL{height:100%; width :2px; left:0; bottom:0;}
+.bd33 div.bdT{width: 100%; height:5px; top:0; left:0;}
+.bd33 div.bdB{width: 100%; height:5px; bottom:0; right:0;}
+.bd33 div.bdR{height:100%; width :5px; right:0; top:0;}
+.bd33 div.bdL{height:100%; width :5px; left:0; bottom:0;}
 .box3:hover .bd1 div.bdT{width: 0;}
 .box3:hover .bd1 div.bdB{width: 0;}
 .box3:hover .bd1 div.bdR{height:0;}
@@ -256,63 +329,96 @@ body{
 // #############################
 // #############################
 // # box_ruby_on_rails ##
-.box4{width: 300px;
-     height: 300px;
+.box4{width: 60%;
+     height: 500px;
      line-height: 300px;
      text-align: center;
      position: relative;
-     left: 680px;
-    //  color: white;
+     left: 450px;
+     color: black;
+     background: linear-gradient(-90deg, #f4244e, white);
+     border-radius: 50px;
+     font-size: 40px;
   }
+.ruby_on_rails_trump{
+                     position:relative;
+                     top: 100px;
+                     }
+
 .bd44 div{background: #000; position:absolute;-webkit-transition:all 0.3s;transition:all 0.3s;}
-.bd44 div.bdT{width: 100%; height:2px; top:0; left:0;}
-.bd44 div.bdB{width: 100%; height:2px; bottom:0; right:0;}
-.bd44 div.bdR{height:100%; width :2px; right:0; top:0;}
-.bd44 div.bdL{height:100%; width :2px; left:0; bottom:0;}
+.bd44 div.bdT{width: 100%; height:5px; top:0; left:0;}
+.bd44 div.bdB{width: 100%; height:5px; bottom:0; right:0;}
+.bd44 div.bdR{height:100%; width :5px; right:0; top:0;}
+.bd44 div.bdL{height:100%; width :5px; left:0; bottom:0;}
 .box4:hover .bd1 div.bdT{width: 0;}
 .box4:hover .bd1 div.bdB{width: 0;}
 .box4:hover .bd1 div.bdR{height:0;}
 .box4:hover .bd1 div.bdL{height:0;}
 // #############################
 // #### box_others ######
-.box5{width: 300px;
-     height: 300px;
-     line-height: 300px;
-     text-align: left;
-     text-align: center;
-     position: relative;
-     left: 180px;
-    //  color: white;
-    }
-.bd55 div{background: #000; position:absolute;-webkit-transition:all 0.3s;transition:all 0.3s;}
-.bd55 div.bdT{width: 100%; height:2px; top:0; left:0;}
-.bd55 div.bdB{width: 100%; height:2px; bottom:0; right:0;}
-.bd55 div.bdR{height:100%; width :2px; right:0; top:0;}
-.bd55 div.bdL{height:100%; width :2px; left:0; bottom:0;}
-.box5:hover .bd1 div.bdT{width: 0;}
-.box5:hover .bd1 div.bdB{width: 0;}
-.box5:hover .bd1 div.bdR{height:0;}
-.box5:hover .bd1 div.bdL{height:0;}
+// .box5{width: 40%;
+//      height: 500px;
+//      line-height: 300px;
+//      text-align: left;
+//      text-align: center;
+//      position: relative;
+//      left: 180px;
+//      color: black;
+//     }
+// .bd55 div{background: #000; position:absolute;-webkit-transition:all 0.3s;transition:all 0.3s;}
+// .bd55 div.bdT{width: 100%; height:3px; top:0; left:0;}
+// .bd55 div.bdB{width: 100%; height:3px; bottom:0; right:0;}
+// .bd55 div.bdR{height:100%; width :3px; right:0; top:0;}
+// .bd55 div.bdL{height:100%; width :3px; left:0; bottom:0;}
+// .box5:hover .bd1 div.bdT{width: 0;}
+// .box5:hover .bd1 div.bdB{width: 0;}
+// .box5:hover .bd1 div.bdR{height:0;}
+// .box5:hover .bd1 div.bdL{height:0;}
 // #############################
 /*###########################################*/
 /*############### Experience ################*/
-.text-swdeveloper{
+// # gray background
+.forrgba{
+  background-color: #F6F4F8;
+  background: rgba(0,0,0,0.5);
+}
+#experience_img{
+  width: 100%;
+  height:200px;
+}
+
+.experiencepage{
+  font-size: 30px;
   text-align: center;
 }
+
+//# software eveloper
+.text-swdeveloper{
+  border-top: 5px solid #681506;
+//   padding: 80px 0 400px 0;
+text-align: center;
+ }
 .swdeveloper{
   max-width: 100%;
   text-align: center;
 }
 #cfa-logo_img{
-  height: 400px;
-  width: 400px;
+  // height: 300px;
+  max-width: 100;
   text-align: center;
+  // margin: 100%
 }
 
 // ### petrochemicals trading company ###
+// # borderline
+.mbc{
+  border-top: 5px solid #681506;
+}
+
 .petrochemicals{
   text-align: center;;
 }
+
 // # sales
 // #salesbackground{
 //   margin: 0 auto;
@@ -330,20 +436,26 @@ body{
   height: 400px;
   width: 400px;
   // text-align: center;
+  box-shadow: 1px 1px 0 rgba(255, 255, 255, .4) inset,
+               0 0 4px rgba(0, 0, 0, .8) inset,
+               2px 2px 2px rgba(0, 0, 0, .4);
 }
 
-//# marketer
-.marketer{
+//# marketng
+.marketing{
   margin: 0 auto;
   width: 100% ;
   width: 400px;
   text-align: center;
 }
-#marketer_img{
+#marketing_img{
   margin: 0 auto;
   height: 400px;
   width: 400px;
   // text-align: center;
+  box-shadow: 1px 1px 0 rgba(255, 255, 255, .4) inset,
+               0 0 4px rgba(0, 0, 0, .8) inset,
+               2px 2px 2px rgba(0, 0, 0, .4);
 }
 
 // //# logistics
@@ -358,20 +470,46 @@ body{
   height: 400px;
   width: 400px;
   // text-align: center;
+  box-shadow: 1px 1px 0 rgba(255, 255, 255, .4) inset,
+               0 0 4px rgba(0, 0, 0, .8) inset,
+               2px 2px 2px rgba(0, 0, 0, .4);
 }
-//# university
-// .text-swdeveloper{
-//   text-align: center;
-// }
-// .swdeveloper{
-//   max-width: 100%;
-//   text-align: center;
-// }
-// #cfa-logo_img{
-//   height: 400px;
-//   width: 400px;
-//   text-align: center;
-// }
+// # university
+.university{
+  border-top: 5px solid #681506;
+}
+.waseda{
+  text-align: center;
+}
 
-
+.major{
+  max-width: 100%;
+  text-align: center;
+}
+#IR_img{
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  border-radius: 300px 20px 450px 15px / 30px 200px 45px 150px;
+}
+.tennis-event{
+  max-width: 100%;
+  text-align: center;
+}
+#tennis_img{
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  border-radius: 500px 400px 40px 50px / 50px 40px 400px 500px;
+}
+.waiter{
+  max-width: 100%;
+  text-align: center;
+}
+#jpfood_img{
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  border-radius: 40px 250px 400px 25px / 150px 30px 40px 100px;
+}
 /*###########################################*/
